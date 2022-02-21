@@ -233,6 +233,7 @@ ol {
   min-width: 200px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;
@@ -371,12 +372,7 @@ ol {
 }
 
 /* ============= Постоянные клиенты ================== */
-.section-clients {
-  padding-top: 167px;
-  padding-right: 277px;
-  padding-left: 153px;
-  padding-bottom: 21px;
-}
+
 .clients-icon {
   display: flex;
   justify-content: space-between;
@@ -468,8 +464,10 @@ ol {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.portfolio-item:hover {
-  box-sizing: border-box;
+.portfolio-link {
+  display: block;
+}
+.portfolio-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -499,7 +497,6 @@ ol {
   letter-spacing: 0.03em;
   color: var(--primary-background-color);
   margin-bottom: 9px;
-  margin-right: 70px;
 }
 .footer-contact {
   font-style: normal;
@@ -535,6 +532,7 @@ ol {
 .footer-social-link-wrapper {
   width: 206px;
   height: 80px;
+  margin-left: 70px;
 }
 .footer-social-icon {
   display: flex;
